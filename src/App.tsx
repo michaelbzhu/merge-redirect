@@ -5,7 +5,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       console.log("pushstate");
-      window.location.href = "https://google.com/contact";
+      window.location.href = "https://mergemosaic.xyz/";
     }, 500);
   }, []);
   return (
