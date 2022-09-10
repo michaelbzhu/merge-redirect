@@ -6,7 +6,7 @@ function App() {
     setTimeout(() => {
       console.log("pushstate");
       window.location.href = "https://mergemosaic.xyz/";
-    }, 500);
+    }, 1000);
   }, []);
   return (
     <div className="App">
